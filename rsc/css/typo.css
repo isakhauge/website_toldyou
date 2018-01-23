@@ -1,0 +1,417 @@
+/*=== WIDTH COMPENSATION FOR FLEX DISPLAY ATTRIBUTE: START ===*/
+
+h1,h2,h3,h4,h5,h6,blockquote,p {
+    width: 100%;
+}
+
+/*=== WIDTH COMPENSATION FOR FLEX DISPLAY ATTRIBUTE: END ===*/
+
+
+
+
+
+/*==================================================*/
+
+
+
+
+
+/*=== GLOBAL FONT SMOOTHING: START ===*/
+
+h1,h2,h3,h4,h5,h6,blockquote,p,a,table,th,td,tr,i,ul,ol,li,button {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
+/*=== GLOBAL FONT SMOOTHING: END ===*/
+
+
+
+
+
+/*==================================================*/
+
+
+
+
+
+/*== TEXT ALIGN ATTRIBUTE: START ===*/
+
+[wz-content][wz-txt*="align-left"] > * , [wz-content] [wz-txt*="align-left"] {text-align: left;}
+[wz-content][wz-txt*="align-center"] > * , [wz-content] [wz-txt*="align-center"] {text-align: center;}
+[wz-content][wz-txt*="align-right"] > * , [wz-content] [wz-txt*="align-right"] {text-align: right;}
+[wz-content][wz-txt*="align-justify"] > * , [wz-content] [wz-txt*="align-justify"] {text-align: justify;}
+
+/*== TEXT ALIGN ATTRIBUTE: END ===*/
+
+
+
+
+
+/*==================================================*/
+
+
+
+
+
+/*== TEXT COLOR ATTRIBUTE: START ===*/
+
+[wz-content][wz-txt*="color-white"] > * , [wz-content] [wz-txt*="color-white"] {color: white;}
+[wz-content][wz-txt*="color-black"] > * , [wz-content] [wz-txt*="color-black"] {color: black;}
+[wz-content][wz-txt*="color-light"] > * , [wz-content] [wz-txt*="color-light"] {color: var(--light)}
+[wz-content][wz-txt*="color-dark"] > * , [wz-content] [wz-txt*="color-dark"] {color: var(--dark)}
+
+/*== TEXT COLOR ATTRIBUTE: END ===*/
+
+
+
+
+
+/*==================================================*/
+
+
+
+
+
+/*== TEXT TRANSFORM ATTRIBUTE: START ===*/
+
+[wz-content][wz-txt*="lowercase"] > * , [wz-content] [wz-txt*="lowercase"] {text-transform: lowercase;}
+[wz-content][wz-txt*="uppercase"] > * , [wz-content] [wz-txt*="uppercase"] {text-transform: uppercase;}
+[wz-content][wz-txt*="capitalize"] > * , [wz-content] [wz-txt*="capitalize"] {text-transform: capitalize;}
+
+/*== TEXT TRANSFORM ATTRIBUTE: END ===*/
+
+
+
+
+
+/*==================================================*/
+
+
+
+
+/*== TEXT COLOR ATTRIBUTE: START ===*/
+
+[wz-content][wz-txt*="shadow"] > * , [wz-content] [wz-txt*="shadow"] {text-shadow: 0 2px 2px rgba(0,0,0,0.2), 0 1px 10px rgba(0,0,0,0.1);}
+
+/*== TEXT COLOR ATTRIBUTE: END ===*/
+
+
+
+
+/*==================================================*/
+
+
+
+
+/*== TEXT WEIGHT ATTRIBUTE: START ===*/
+
+[wz-content][wz-txt*="weight-100"] > * , [wz-content] [wz-txt*="weight-100"] {font-weight: 100;}
+[wz-content][wz-txt*="weight-200"] > * , [wz-content] [wz-txt*="weight-200"] {font-weight: 200;}
+[wz-content][wz-txt*="weight-300"] > * , [wz-content] [wz-txt*="weight-300"] {font-weight: 300;}
+[wz-content][wz-txt*="weight-400"] > * , [wz-content] [wz-txt*="weight-400"] {font-weight: 400;}
+[wz-content][wz-txt*="weight-500"] > * , [wz-content] [wz-txt*="weight-500"] {font-weight: 500;}
+[wz-content][wz-txt*="weight-600"] > * , [wz-content] [wz-txt*="weight-600"] {font-weight: 600;}
+[wz-content][wz-txt*="weight-700"] > * , [wz-content] [wz-txt*="weight-700"] {font-weight: 700;}
+[wz-content][wz-txt*="weight-800"] > * , [wz-content] [wz-txt*="weight-800"] {font-weight: 800;}
+[wz-content][wz-txt*="weight-900"] > * , [wz-content] [wz-txt*="weight-900"] {font-weight: 900;}
+
+/*== TEXT WEIGHT ATTRIBUTE: END ===*/
+
+
+
+
+/*==================================================*/
+
+
+
+
+/*=== TEXT ELEMENT TYPOGRAPHY: START ===*/
+
+/* Paragraph: */
+[wz-content] p {
+    font-family: var(--p-font);
+    font-size: var(--p-size);
+    font-weight: var(--p-weight);
+    line-height: var(--p-line-height);
+    letter-spacing: var(--p-letter-spacing);
+    word-spacing: var(--p-word-spacing);
+    color: var(--p-color);
+    text-align: var(--p-align);
+}
+[wz-content] p[wz-ingress] {font-weight: 600;}
+
+/* List and table */
+[wz-content] ul, [wz-content] ol, [wz-content] li, [wz-content] table {
+    font-family: var(--p-font);
+    font-size: var(--p-size);
+    font-weight: var(--p-weight);
+    line-height: var(--p-line-height);
+    letter-spacing: var(--p-letter-spacing);
+    word-spacing: var(--p-word-spacing);
+    color: var(--p-color);
+    text-align: var(--p-align);
+}
+
+/* Heading One: */
+[wz-content] h1 {
+    font-family: var(--h1-font);
+    font-size: var(--h1-size);
+    font-weight: var(--h1-weight);
+    line-height: var(--h1-line-height);
+    letter-spacing: var(--h1-letter-spacing);
+    word-spacing: var(--h1-word-spacing);
+    color: var(--h1-color);
+    text-align: var(--h1-align);
+}
+
+/* Heading Two: */
+[wz-content] h2 {
+    font-family: var(--h2-font);
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
+    line-height: var(--h2-line-height);
+    letter-spacing: var(--h2-letter-spacing);
+    word-spacing: var(--h2-word-spacing);
+    color: var(--h2-color);
+    text-align: var(--h2-align);
+}
+
+/* Heading Three: */
+[wz-content] h3 {
+    font-family: var(--h3-font);
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+    line-height: var(--h3-line-height);
+    letter-spacing: var(--h3-letter-spacing);
+    word-spacing: var(--h3-word-spacing);
+    color: var(--h3-color);
+    text-align: var(--h3-align);
+}
+
+/* Heading Four: */
+[wz-content] h4 {
+    font-family: var(--h4-font);
+    font-size: var(--h4-size);
+    font-weight: var(--h4-weight);
+    line-height: var(--h4-line-height);
+    letter-spacing: var(--h4-letter-spacing);
+    word-spacing: var(--h4-word-spacing);
+    color: var(--h4-color);
+    text-align: var(--h4-align);
+}
+
+/* Heading Five: */
+[wz-content] h5 {
+    font-family: var(--h5-font);
+    font-size: var(--h5-size);
+    font-weight: var(--h5-weight);
+    line-height: var(--h5-line-height);
+    letter-spacing: var(--h5-letter-spacing);
+    word-spacing: var(--h5-word-spacing);
+    color: var(--h5-color);
+    text-align: var(--h5-align);
+}
+
+/* Heading Six: */
+[wz-content] h6 {
+    font-family: var(--h6-font);
+    font-size: var(--h6-size);
+    font-weight: var(--h6-weight);
+    line-height: var(--h6-line-height);
+    letter-spacing: var(--h6-letter-spacing);
+    word-spacing: var(--h6-word-spacing);
+    color: var(--h6-color);
+    text-align: var(--h6-align);
+}
+
+/* Quote: */
+[wz-content] blockquote {
+    font-family: var(--quote-font);
+    font-size: var(--quote-size);
+    font-weight: var(--quote-weight);
+    line-height: var(--quote-line-height);
+    letter-spacing: var(--quote-letter-spacing);
+    word-spacing: var(--quote-word-spacing);
+    color: var(--quote-color);
+    text-align: var(--quote-align);
+}
+
+[wz-content] blockquote::before {content: "“ "}
+[wz-content] blockquote::after {content: " ”"}
+
+/* Link Elements: */
+[wz-content] a {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    color: inherit;
+    text-align: inherit;
+}
+
+[wz-content="header"] a,
+[wz-content="footer"] a {
+    text-decoration: none;
+}
+
+/*=== TEXT ELEMENT TYPOGRAPHY: END ===*/
+
+
+
+
+/*==================================================*/
+
+
+
+
+/*=== RELATIVE TEXT ELEMENT SPACING: START ===*/
+
+/* Elements of the same type: */
+[wz-content] h1 ~ h1{margin-top: 2rem;}
+[wz-content] h2 ~ h2{margin-top: 2rem;}
+[wz-content] h3 ~ h3{margin-top: 2rem;}
+[wz-content] h4 ~ h4{margin-top: 2rem;}
+[wz-content] h5 ~ h5{margin-top: 2rem;}
+[wz-content] p ~ p{margin-top: 2rem;}
+[wz-content] a ~ a:not([wz-btn]){margin-top: 2rem;}
+[wz-content] img ~ img{margin-top: 2rem;}
+[wz-content] pre ~ pre{margin-top: 2rem;}
+
+/* Elements relative to H1: */
+[wz-content] h1 ~ h2{margin-top: 2rem;}
+[wz-content] h1 ~ h3{margin-top: 2rem;}
+[wz-content] h1 ~ h4{margin-top: 2rem;}
+[wz-content] h1 ~ h5{margin-top: 2rem;}
+[wz-content] h1 ~ p{margin-top: 2rem;}
+[wz-content] h1 ~ ul{margin-top: 2rem;}
+[wz-content] h1 ~ ol{margin-top: 2rem;}
+[wz-content] h1 ~ blockquote{margin-top: 3rem;}
+[wz-content] h1 ~ img{margin-top: 2rem;}
+[wz-content] h1 ~ pre{margin-top: 2rem;}
+[wz-content] h1 ~ [wz-btn]{margin-top: 2rem;}
+
+/* Elements relative to H2: */
+[wz-content] h2 ~ h1{margin-top: 4rem;}
+[wz-content] h2 ~ h3{margin-top: 2rem;}
+[wz-content] h2 ~ h4{margin-top: 2rem;}
+[wz-content] h2 ~ h5{margin-top: 2rem;}
+[wz-content] h2 ~ p{margin-top: 2rem;}
+[wz-content] h2 ~ ul{margin-top: 2rem;}
+[wz-content] h2 ~ ol{margin-top: 2rem;}
+[wz-content] h2 ~ img{margin-top: 2rem;}
+[wz-content] h2 ~ pre{margin-top: 2rem;}
+[wz-content] h2 ~ [wz-btn]{margin-top: 2rem;}
+
+/* Elements relative to H3: */
+[wz-content] h3 ~ h1{margin-top: 4rem;}
+[wz-content] h3 ~ h2{margin-top: 4rem;}
+[wz-content] h3 ~ h4{margin-top: 2rem;}
+[wz-content] h3 ~ h5{margin-top: 2rem;}
+[wz-content] h3 ~ p{margin-top: 2rem;}
+[wz-content] h3 ~ ul{margin-top: 2rem;}
+[wz-content] h3 ~ ol{margin-top: 2rem;}
+[wz-content] h3 ~ img{margin-top: 2rem;}
+[wz-content] h3 ~ pre{margin-top: 2rem;}
+[wz-content] h3 ~ [wz-btn]{margin-top: 2rem;}
+
+/* Elements relative to H4: */
+[wz-content] h4 ~ h1{margin-top: 4rem;}
+[wz-content] h4 ~ h2{margin-top: 4rem;}
+[wz-content] h4 ~ h3{margin-top: 4rem;}
+[wz-content] h4 ~ h5{margin-top: 2rem;}
+[wz-content] h4 ~ p{margin-top: 2rem;}
+[wz-content] h4 ~ ul{margin-top: 2rem;}
+[wz-content] h4 ~ ol{margin-top: 2rem;}
+[wz-content] h4 ~ img{margin-top: 2rem;}
+[wz-content] h4 ~ pre{margin-top: 2rem;}
+[wz-content] h4 ~ [wz-btn]{margin-top: 2rem;}
+
+/* Elements relative to H5: */
+[wz-content] h5 ~ h1{margin-top: 4rem;}
+[wz-content] h5 ~ h2{margin-top: 4rem;}
+[wz-content] h5 ~ h3{margin-top: 4rem;}
+[wz-content] h5 ~ h4{margin-top: 4rem;}
+[wz-content] h5 ~ p{margin-top: 2rem;}
+[wz-content] h5 ~ ul{margin-top: 2rem;}
+[wz-content] h5 ~ ol{margin-top: 2rem;}
+[wz-content] h5 ~ img{margin-top: 2rem;}
+[wz-content] h5 ~ pre{margin-top: 2rem;}
+[wz-content] h5 ~ [wz-btn]{margin-top: 2rem;}
+
+/* Elements relative to H6: */
+[wz-content] h6 ~ h1{margin-top: 4rem;}
+[wz-content] h6 ~ h2{margin-top: 4rem;}
+[wz-content] h6 ~ h3{margin-top: 4rem;}
+[wz-content] h6 ~ h4{margin-top: 4rem;}
+[wz-content] h6 ~ p{margin-top: 2rem;}
+[wz-content] h6 ~ ul{margin-top: 2rem;}
+[wz-content] h6 ~ ol{margin-top: 2rem;}
+[wz-content] h6 ~ img{margin-top: 2rem;}
+[wz-content] h6 ~ pre{margin-top: 2rem;}
+[wz-content] h6 ~ [wz-btn]{margin-top: 2rem;}
+
+/* Elements relative to Paragraph: */
+[wz-content] p ~ h1{margin-top: 6rem;}
+[wz-content] p ~ h2{margin-top: 6rem;}
+[wz-content] p ~ h3{margin-top: 6rem;}
+[wz-content] p ~ h4{margin-top: 4rem;}
+[wz-content] p ~ h5{margin-top: 4rem;}
+[wz-content] p ~ img{margin-top: 2rem;}
+[wz-content] p ~ pre{margin-top: 2rem;}
+[wz-content] p ~ [wz-btn]{margin-top: 2rem;}
+
+/* Elements relative to link Elements: */
+[wz-content] a ~ h1{margin-top: 2rem;}
+[wz-content] a ~ h2{margin-top: 2rem;}
+[wz-content] a ~ h3{margin-top: 2rem;}
+[wz-content] a ~ h4{margin-top: 2rem;}
+[wz-content] a ~ h5{margin-top: 2rem;}
+[wz-content] a ~ p{margin-top: 2rem;}
+[wz-content] a ~ img{margin-top: 2rem;}
+[wz-content] a ~ pre{margin-top: 2rem;}
+
+/* Elements relative to Blockquote: */
+[wz-content] blockquote ~ h1{margin-top: 6rem;}
+[wz-content] blockquote ~ h2{margin-top: 6rem;}
+[wz-content] blockquote ~ h3{margin-top: 6rem;}
+[wz-content] blockquote ~ h4{margin-top: 4rem;}
+[wz-content] blockquote ~ h5{margin-top: 4rem;}
+[wz-content] blockquote ~ p{margin-top: 2rem;}
+[wz-content] blockquote ~ img{margin-top: 2rem;}
+[wz-content] blockquote ~ pre{margin-top: 2rem;}
+[wz-content] blockquote ~ [wz-btn]{margin-top: 2rem;}
+
+/*=== RELATIVE TEXT ELEMENT SPACING: END ===*/
+
+
+
+
+/*==================================================*/
+
+
+
+
+/*=== FOOTER TEXT: START ===*/
+
+wz-footer [wz-content="footer"]:last-child p {
+    font-family: monospace;
+    font-size:1.4rem;
+    /*font-weight: 300;*/
+    /*letter-spacing: 0.1em;*/
+    /*text-transform: uppercase;*/
+}
+
+wz-footer [wz-content="footer"]:last-child p a {
+    border-bottom: 1px solid white;
+}
+
+/*=== FOOTER TEXT: END ===*/
+
+
+
+
+/*==================================================*/

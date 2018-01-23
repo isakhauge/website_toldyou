@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JQUERY IMPORT: START -->
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+    <script src="rsc/js/jquery/jquery-3.2.1.js"></script>
+    <!-- JQUERY IMPORT: END -->
+
+    <!-- HEAD IMPORT: START -->
+    <script src="rsc/js/head/head.js"></script>
+    <!-- HEAD IMPORT: END -->
+
+    <title>Told you</title>
+</head>
+<body>
+<wz-apex id="apex"></wz-apex>
+<div id="fb-root"></div>
+
+
+
+
+<header wz-header="pos-fixed-overlap">
+
+    <div wz-content="header">
+
+        <wz-logo-header></wz-logo-header>
+
+        <wz-hamburger></wz-hamburger>
+        <nav wz-height="100vh">
+            <ul>
+                <li><a wz-nav-link href="#section-spotify-fb">Hør oss på Spotify</a></li>
+                <li><a wz-nav-link href="#section-spotify-fb">Om oss</a></li>
+                <li><a wz-nav-link href="#section-spotify-fb">Anbefalinger</a></li>
+                <li><a wz-nav-link href="#section-kontakt-booking">Kontakt og booking</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+
+    <section wz-overlay="dark" wz-height="100vh">
+
+        <img src="rsc/img/cover-03.jpg"/>
+
+        <div wz-content="main--align-hz-center--align-vc-center" wz-txt="align-center">
+
+            <wz-logo></wz-logo>
+
+            <wz-space wz-height="60"></wz-space>
+
+            <a href="#section01" wz-btn="style-outline--color-white">Kontakt og booking</a>
+            <a href="#section01" wz-btn="style-outline--color-white">Billetter</a>
+
+        </div>
+
+        <wz-arrow-down></wz-arrow-down>
+
+    </section>
+
+
+    <section id="section-01" wz-bg-color="dark-grey">
+
+        <wz-space wz-height="80"></wz-space>
+
+        <video src="rsc/vid/cover.m4v" muted autoplay loop style="opacity: 0.1; filter: grayscale(100%);"></video>
+
+        <div wz-content="main" wz-col="1" wz-txt="color-white + align-center">
+
+            <h1>Told You</h1>
+            <h2>Inspirert av bluesrock fra 70 og 80-tallet</h2>
+
+        </div>
+
+        <wz-space></wz-space>
+
+        <div wz-content="main--align-hz-center" wz-col="3" wz-txt="align-center + color-white">
+
+            <a href="https://open.spotify.com/artist/2vcU7K3aghgRzEX1vrj6Vi" target="_blank">
+                <img wz-music-logo="spotify" src="rsc/img/misc/spotify-logo.svg" alt="Spotify">
+            </a>
+
+        </div>
+        <div wz-content="main--align-hz-center" wz-col="3" wz-txt="align-center + color-white">
+
+            <a href="https://tidal.com/artist/9212092" target="_blank">
+                <img wz-music-logo="tidal" src="rsc/img/misc/tidal-logo.svg" alt="Tidal">
+            </a>
+
+        </div>
+        <div wz-content="main--align-hz-center" wz-col="3" wz-txt="align-center + color-white">
+
+            <a href="https://itunes.apple.com/no/artist/hugo-stokkan/1299153478" target="_blank">
+                <img wz-music-logo="applemusic" src="rsc/img/misc/apple-music-logo.svg" alt="Apple Music">
+            </a>
+
+        </div>
+
+        <wz-space wz-height="80"></wz-space>
+
+    </section>
+
+
+    <section>
+        <div wz-content="main--align-hz-center" wz-txt="align-center">
+            <h2 wz-txt="weight-700">En frisk kombinasjon av nytt og gammelt</h2>
+            <h3 wz-txt="weight-500">I tillegg til cover-låter av kjente artister,<br>produserer vi egen musikk</h3>
+
+            <wz-space wz-height="40"></wz-space>
+
+            <iframe class="default" src="https://open.spotify.com/follow/1/?uri=spotify:artist:2vcU7K3aghgRzEX1vrj6Vi&size=basic&theme=dark&show-count=0" width="92" height="26" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+        </div>
+    </section>
+
+
+    <section id="section-spotify-fb" wz-bg-color="theme-color-01">
+        <div wz-content="main--align-hz-center" wz-col="2--1" wz-txt="color-white + align-center">
+            <h3>Følg oss på Spotify</h3>
+
+            <wz-space wz-height="40"></wz-space>
+
+            <iframe src="https://open.spotify.com/embed?uri=spotify:artist:2vcU7K3aghgRzEX1vrj6Vi" width="340" height="420" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+
+        <div wz-content="main--align-hz-center" wz-col="2--2" wz-txt="color-white + align-center">
+            <h3>Følg oss på Facebook</h3>
+
+            <wz-space wz-height="40"></wz-space>
+
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTOLD-YOU-844833545636529%2F&tabs=events&width=340&height=450&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=327899577385145" width="340" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+    </section>
+
+
+    <section wz-bg-color="dark-grey" wz-overlay="darker">
+
+        <img src="rsc/img/crowd.jpg" alt="Crowd">
+        
+        <div wz-content="main--align-hz-center" wz-txt="color-white + align-center">
+            <wz-space wz-height="80"></wz-space>
+            <wz-space></wz-space>
+            <blockquote>Etter at vi begynte å booke Told You med jevne mellomrom,<br> har vi doblet vår omsetning.</blockquote>
+            <p>Ola Nordmann, Utheim Bar &amp; Pub</p>
+            <wz-space wz-height="80"></wz-space>
+        </div>
+    </section>
+
+
+    <section id="section-kontakt-booking">
+        <div wz-content="main--align-hz-center" wz-col="2--1">
+            <h3 wz-txt="align-center"><i wz-material-icon>today</i> Kontakt og booking</h3>
+
+            <wz-space></wz-space>
+
+            <p>For generelle henvendelser eller booking, kan du kontakte oss gjennom informasjonen som er gitt under.</p>
+            <p>
+                <i wz-material-icon>email</i>&nbsp;&nbsp;ketil.johansen1@hlkbb.no<br>
+                <i wz-material-icon>phone</i>&nbsp;&nbsp;990 16 829
+            </p>
+
+        </div>
+
+        <div wz-content="main--align-hz-center" wz-col="2--2">
+            <h3 wz-txt="align-center"><i wz-material-icon>local_activity</i> Billetter</h3>
+
+            <wz-space></wz-space>
+
+            <p>Billetter kjøpes på den aktuelle plassen der vi spiller. Vi aksepterer både kort og kontanter. Billettpriser finner du på vår Facebook-side, under hver respektive event.</p>
+
+            <a href="https://www.facebook.com/TOLD-YOU-844833545636529/events/" target="_blank" wz-btn="style-outline">Eventer og priser</a>
+
+        </div>
+    </section>
+
+
+
+</main>
+
+
+
+
+<wz-footer wz-bg-color="theme-color-01"></wz-footer>
+
+<wz-ascend></wz-ascend>
+
+
+
+
+</body>
+</html>

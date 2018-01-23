@@ -1,0 +1,22 @@
+[wz-material-icon] {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.25em;
+    display: inline-block;
+    line-height: 1em;
+    vertical-align: sub;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+[wz-btn] > [wz-material-icon]{
+    margin-right: 0.25em;
+}

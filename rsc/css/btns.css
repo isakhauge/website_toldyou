@@ -1,0 +1,116 @@
+/*=== BUTTONS: START ===*/
+
+    /* Basic style: */
+
+        [wz-content] [wz-btn] {
+
+            /* Display: */
+
+            /* Typo: */
+            font-family: var(--font-default);
+            font-size: var(--h5-size);
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1em;
+            vertical-align: baseline;
+            text-decoration: none;
+
+            /* Dimensions: */
+            padding: .75em 1em;
+            border: none;
+            border-radius: .5rem;
+            margin-top: .5em;
+            margin-bottom: .5em;
+
+            /* Color: */
+            color: var(--p-color);
+            background-color: var(--grey);
+
+            /* Effects: */
+            cursor: pointer;
+            outline: none;
+
+            /* Animations: */
+            transition-duration: .4s;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
+
+        }
+
+        [wz-btn] ~ [wz-btn] {
+
+            margin-left: 1em;
+
+        }
+
+        [wz-content] [wz-btn]:hover {
+
+            /* Animations: */
+            transition-duration: .4s;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
+
+        }
+
+
+    /* Style (Outline): */
+
+        [wz-content] [wz-btn*="style-outline"] {
+
+            /* Color: */
+            color: var(--p-color);
+            background-color: transparent;
+
+            /* Dimensions: */
+            border: .2rem solid var(--p-color);
+
+        }
+
+        [wz-content] [wz-btn*="style-outline"]:hover {
+
+            /* Color: */
+            color: white;
+            background-color: var(--p-color);
+            border-color: var(--p-color);
+
+        }
+
+    /* Color style (white) */
+
+        [wz-content] [wz-btn*="--color-white"] {
+
+            /* Color: */
+            color: white;
+            border-color: white;
+
+        }
+
+        [wz-content] [wz-btn*="--color-white"]:hover {
+
+            /* Color: */
+            color: var(--p-color);
+            border-color: white;
+            background-color: white;
+
+        }
+
+    /* Color style (dark) */
+
+        [wz-content] [wz-btn*="--color-dark"] {
+
+            /* Colors: */
+            color: var(--p-color);
+            border-color: var(--p-color);
+
+        }
+
+        [wz-content] [wz-btn*="--color-dark"]:hover {
+
+            /* Colors: */
+            color: white;
+            border-color: var(--p-color);
+            background-color: var(--p-color);
+
+        }
+
+/*=== BUTTONS: END ===*/

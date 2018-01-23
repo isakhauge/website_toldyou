@@ -1,0 +1,23 @@
+@keyframes wz-cheese-anim {
+    0% {transform: var(--wz-cheese-anim-pos-01);}
+    50% {transform: var(--wz-cheese-anim-pos-02);}
+    100% {transform: var(--wz-cheese-anim-pos-03);}
+}
+
+@keyframes wz-patty-anim {
+    0% {transform: var(--wz-patty-anim-pos-01);}
+    50% {transform: var(--wz-patty-anim-pos-02);}
+    100% {transform: var(--wz-patty-anim-pos-03);}
+}
+
+@keyframes wz-lettuce-anim {
+    0% {transform: var(--wz-lettuce-anim-pos-01);}
+    50% {transform: var(--wz-lettuce-anim-pos-02);}
+    100% {transform: var(--wz-lettuce-anim-pos-03);}
+}
+
+@keyframes wz-arrow-down-anim {
+    0% {transform: translateY(-2.5rem);}
+    50% {transform: translateY(0rem);}
+    100% {transform: translateY(-2.5rem);}
+}
