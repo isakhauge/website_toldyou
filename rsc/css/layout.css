@@ -293,13 +293,28 @@ wz-hamburger.active [wz-lettuce] {
 
 [wz-content="header"] wz-hamburger.active ~ nav::before {
     /* Display: */
-    opacity: 1;
+    opacity: 0;
+    content: "";
+
+    /* Dimensions: */
+    width: 100%;
+    height: 100vh;
 
     /* Position: */
+    position: fixed;
+    top: 0;
+    left: 0;
     transform: translateX(0);
 
+    /* Background: */
+    background-color: rgba(0,0,0,.5);
+
     /* Anim: */
-    transition: all .3s ease-in-out;
+    animation-name: wz-nav-blackout;
+    animation-fill-mode: forwards;
+    animation-delay: .6s;
+    animation-duration: .3s;
+    /*transition: all .6s ease-in-out;*/
 }
 
 @media only screen and (min-width: 992px) {
