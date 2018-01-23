@@ -1,4 +1,4 @@
-# Website for “Told You”
+# One page website for “Told You”
 Charity website for a Norwegian rock band
 
 ## Technology
