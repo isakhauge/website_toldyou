@@ -291,7 +291,7 @@ wz-hamburger.active [wz-lettuce] {
     transition: all .3s ease-in-out;
 }
 
-[wz-content="header"] wz-hamburger.active ~ nav::before {
+[wz-content="header"] wz-hamburger ~ nav::before {
     /* Display: */
     opacity: 0;
     content: "";
@@ -310,11 +310,17 @@ wz-hamburger.active [wz-lettuce] {
     background-color: rgba(0,0,0,.5);
 
     /* Anim: */
+    /*transition: all .3s ease-in-out;*/
+}
+
+[wz-content="header"] wz-hamburger.active ~ nav::before {
+    /* Anim: */
     animation-name: wz-nav-blackout;
     animation-fill-mode: forwards;
-    animation-delay: .6s;
-    animation-duration: .3s;
-    /*transition: all .6s ease-in-out;*/
+    animation-delay: .3s;
+    animation-duration: .6s;
+    animation-timing-function: linear;
+    /*transition: all .3s ease-in-out;*/
 }
 
 @media only screen and (min-width: 992px) {
@@ -495,6 +501,14 @@ section > img, section > video {
     align-content: center;
     align-items: center;
     margin: 0 var(--content-hz-margin);
+}
+
+@media only screen and (max-width: 767px) {
+    [wz-content^="main"] {
+        /* Dimension: */
+        margin-top: calc( var(--content-vc-margin) * 2 );
+        margin-bottom: calc( var(--content-vc-margin) * 2 );
+    }
 }
 
 /* Images within wz-content: */
