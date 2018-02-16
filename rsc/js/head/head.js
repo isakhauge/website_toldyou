@@ -27,6 +27,13 @@ let head = `
     <script src="rsc/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <!-- HIGHLIGHT JS: END -->
+    
+    
+    
+    
+    <!-- AFTERGLOW IMPORT: START -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
+    <!-- AFTERGLOW IMPORT: END -->
 
 
 

@@ -48,7 +48,7 @@
     --wz-ascend-border-radius: 50%;
 
 /* Theme colors: */
-    --hr-color: rgba(0,0,0,0.01);
+    --hr-color: rgba(0,0,0,0.1);
     --light: rgba(255,255,255,0.5);
     --dark: rgba(0,0,0,0.5);
     --grey: #F7F7F7;

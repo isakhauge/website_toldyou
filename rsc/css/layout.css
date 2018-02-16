@@ -528,9 +528,15 @@ section > img, section > video {
     position: relative;
     overflow: hidden !important;
     border-radius: .5rem !important;
-    max-width: 340px;
+    max-width: 335px;
     box-shadow: var(--iframe-shadow);
     background-color: #f6f7f9;
+}
+
+[wz-content] > div[class*="afterglow video-js"] {
+    overflow: hidden;
+    border-radius: 0.3rem;
+    box-shadow: var(--iframe-shadow);
 }
 
 [wz-content] * {max-width: 100%;}

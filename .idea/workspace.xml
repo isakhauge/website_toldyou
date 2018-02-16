@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/rsc/css/layout.css" afterPath="$PROJECT_DIR$/rsc/css/layout.css" />
       <change beforePath="$PROJECT_DIR$/rsc/css/typo.css" afterPath="$PROJECT_DIR$/rsc/css/typo.css" />
       <change beforePath="$PROJECT_DIR$/rsc/css/var.css" afterPath="$PROJECT_DIR$/rsc/css/var.css" />
+      <change beforePath="$PROJECT_DIR$/rsc/js/head/head.js" afterPath="$PROJECT_DIR$/rsc/js/head/head.js" />
+      <change beforePath="$PROJECT_DIR$/rsc/vid/cover.m4v" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,30 +21,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50760806">
+    <splitter split-orientation="horizontal" split-proportion="0.5410834">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="154" column="79" lean-forward="true" selection-start-line="154" selection-start-column="79" selection-end-line="154" selection-end-column="79" />
+                <state relative-caret-position="406">
+                  <caret line="176" column="8" lean-forward="true" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
                   <folding>
                     <element signature="n#style#0;n#iframe#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#6321#6327#0" expanded="true" />
-                    <element signature="e#6327#6333#0" expanded="true" />
-                    <element signature="e#6407#6413#0" expanded="true" />
-                    <element signature="e#6413#6419#0" expanded="true" />
+                    <element signature="e#6555#6561#0" expanded="true" />
+                    <element signature="e#6561#6567#0" expanded="true" />
+                    <element signature="e#6641#6647#0" expanded="true" />
+                    <element signature="e#6647#6653#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="var.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="var.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rsc/css/var.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+                <state relative-caret-position="572">
+                  <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -55,8 +57,8 @@
           <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rsc/css/layout.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="519" column="17" lean-forward="true" selection-start-line="519" selection-start-column="17" selection-end-line="519" selection-end-column="17" />
+                <state relative-caret-position="701">
+                  <caret line="538" column="28" lean-forward="false" selection-start-line="538" selection-start-column="28" selection-end-line="538" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -77,8 +79,18 @@
           <file leaf-file-name="typo.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/rsc/css/typo.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="573">
-                  <caret line="397" column="16" lean-forward="false" selection-start-line="397" selection-start-column="16" selection-end-line="397" selection-end-column="16" />
+                <state relative-caret-position="468">
+                  <caret line="411" column="42" lean-forward="false" selection-start-line="411" selection-start-column="42" selection-end-line="411" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="head.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/rsc/js/head/head.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -101,6 +113,7 @@
       <find>[wz-btn]</find>
       <find>'</find>
       <find>bg</find>
+      <find>footer</find>
     </findStrings>
     <replaceStrings>
       <replace>a[wz-btn]</replace>
@@ -119,14 +132,14 @@
         <option value="$PROJECT_DIR$/rsc/css/col.css" />
         <option value="$PROJECT_DIR$/rsc/js/wz_ham/wz-ham.js" />
         <option value="$PROJECT_DIR$/rsc/js/custom_dom/custom-dom-elements.js" />
-        <option value="$PROJECT_DIR$/rsc/js/head/head.js" />
         <option value="$PROJECT_DIR$/rsc/css/material-icons.css" />
         <option value="$PROJECT_DIR$/rsc/css/anim.css" />
         <option value="$PROJECT_DIR$/rsc/js/footer/footer.js" />
-        <option value="$PROJECT_DIR$/rsc/css/var.css" />
         <option value="$PROJECT_DIR$/rsc/css/typo.css" />
+        <option value="$PROJECT_DIR$/rsc/js/head/head.js" />
         <option value="$PROJECT_DIR$/rsc/css/layout.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/rsc/css/var.css" />
       </list>
     </option>
   </component>
@@ -162,7 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +192,12 @@
               <item name="toldyou_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="toldyou_web" type="462c0819:PsiDirectoryNode" />
               <item name="rsc" type="462c0819:PsiDirectoryNode" />
+              <item name="afterglow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toldyou_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toldyou_web" type="462c0819:PsiDirectoryNode" />
+              <item name="rsc" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,11 +206,25 @@
               <item name="rsc" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="toldyou_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toldyou_web" type="462c0819:PsiDirectoryNode" />
+              <item name="rsc" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toldyou_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toldyou_web" type="462c0819:PsiDirectoryNode" />
+              <item name="rsc" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="head" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,12 +291,13 @@
       <workItem from="1518229451667" duration="1596000" />
       <workItem from="1518727873808" duration="910000" />
       <workItem from="1518728809424" duration="2805000" />
+      <workItem from="1518774546706" duration="2327000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93612000" />
+    <option name="totallyTimeSpent" value="95939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,9 +313,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1348078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854208" sideWeight="0.4623486" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08932238" sideWeight="0.46024224" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854208" sideWeight="0.5376514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08932238" sideWeight="0.5397578" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -367,10 +401,10 @@
           <caret line="134" column="73" lean-forward="false" selection-start-line="134" selection-start-column="73" selection-end-line="134" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6321#6327#0" expanded="true" />
-            <element signature="e#6327#6333#0" expanded="true" />
-            <element signature="e#6407#6413#0" expanded="true" />
-            <element signature="e#6413#6419#0" expanded="true" />
+            <element signature="e#6555#6561#0" expanded="true" />
+            <element signature="e#6561#6567#0" expanded="true" />
+            <element signature="e#6641#6647#0" expanded="true" />
+            <element signature="e#6647#6653#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -428,10 +462,10 @@
           <caret line="134" column="73" lean-forward="false" selection-start-line="134" selection-start-column="73" selection-end-line="134" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6321#6327#0" expanded="true" />
-            <element signature="e#6327#6333#0" expanded="true" />
-            <element signature="e#6407#6413#0" expanded="true" />
-            <element signature="e#6413#6419#0" expanded="true" />
+            <element signature="e#6555#6561#0" expanded="true" />
+            <element signature="e#6561#6567#0" expanded="true" />
+            <element signature="e#6641#6647#0" expanded="true" />
+            <element signature="e#6647#6653#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -489,10 +523,10 @@
           <caret line="134" column="73" lean-forward="false" selection-start-line="134" selection-start-column="73" selection-end-line="134" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6321#6327#0" expanded="true" />
-            <element signature="e#6327#6333#0" expanded="true" />
-            <element signature="e#6407#6413#0" expanded="true" />
-            <element signature="e#6413#6419#0" expanded="true" />
+            <element signature="e#6555#6561#0" expanded="true" />
+            <element signature="e#6561#6567#0" expanded="true" />
+            <element signature="e#6641#6647#0" expanded="true" />
+            <element signature="e#6647#6653#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -550,10 +584,10 @@
           <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6321#6327#0" expanded="true" />
-            <element signature="e#6327#6333#0" expanded="true" />
-            <element signature="e#6407#6413#0" expanded="true" />
-            <element signature="e#6413#6419#0" expanded="true" />
+            <element signature="e#6555#6561#0" expanded="true" />
+            <element signature="e#6561#6567#0" expanded="true" />
+            <element signature="e#6641#6647#0" expanded="true" />
+            <element signature="e#6647#6653#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -673,26 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rsc/js/footer/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1518229765210" expanded="true" signature="118:533" ph="..." />
-            <marker date="1518229765210" expanded="true" signature="185:459" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsc/js/head/head.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rsc/js/custom_dom/custom-dom-elements.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -703,41 +717,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rsc/css/var.css">
+    <entry file="file://$PROJECT_DIR$/rsc/js/footer/footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <marker date="1518229765210" expanded="true" signature="118:533" ph="..." />
+            <marker date="1518229765210" expanded="true" signature="185:459" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rsc/css/typo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="397" column="16" lean-forward="false" selection-start-line="397" selection-start-column="16" selection-end-line="397" selection-end-column="16" />
+        <state relative-caret-position="468">
+          <caret line="411" column="42" lean-forward="false" selection-start-line="411" selection-start-column="42" selection-end-line="411" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsc/js/head/head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rsc/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="519" column="17" lean-forward="true" selection-start-line="519" selection-start-column="17" selection-end-line="519" selection-end-column="17" />
+        <state relative-caret-position="701">
+          <caret line="538" column="28" lean-forward="false" selection-start-line="538" selection-start-column="28" selection-end-line="538" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="154" column="79" lean-forward="true" selection-start-line="154" selection-start-column="79" selection-end-line="154" selection-end-column="79" />
+        <state relative-caret-position="406">
+          <caret line="176" column="8" lean-forward="true" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6321#6327#0" expanded="true" />
-            <element signature="e#6327#6333#0" expanded="true" />
-            <element signature="e#6407#6413#0" expanded="true" />
-            <element signature="e#6413#6419#0" expanded="true" />
+            <element signature="e#6555#6561#0" expanded="true" />
+            <element signature="e#6561#6567#0" expanded="true" />
+            <element signature="e#6641#6647#0" expanded="true" />
+            <element signature="e#6647#6653#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsc/css/var.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
