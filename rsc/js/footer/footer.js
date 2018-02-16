@@ -12,6 +12,8 @@ let footerContentCreds = `
         <wz-space wz-height="40"></wz-space>
         
     </div>
+    
+    
 `;
 
 customElements.define('wz-footer', class extends HTMLElement {
