@@ -385,6 +385,18 @@ h1,h2,h3,h4,h5,h6,blockquote,p,a,table,th,td,tr,i,ul,ol,li,button {
 [wz-content] blockquote ~ pre{margin-top: 2rem;}
 [wz-content] blockquote ~ [wz-btn]{margin-top: 2rem;}
 
+/* Elements relative to img: */
+[wz-content] img ~ h1{margin-top: 4rem;}
+[wz-content] img ~ h2{margin-top: 4rem;}
+[wz-content] img ~ h3{margin-top: 4rem;}
+[wz-content] img ~ h4{margin-top: 4rem;}
+[wz-content] img ~ p{margin-top: 2rem;}
+[wz-content] img ~ ul{margin-top: 2rem;}
+[wz-content] img ~ ol{margin-top: 2rem;}
+[wz-content] img ~ img{margin-top: 2rem;}
+[wz-content] img ~ pre{margin-top: 2rem;}
+[wz-content] img ~ [wz-btn]{margin-top: 2rem;}
+
 /*=== RELATIVE TEXT ELEMENT SPACING: END ===*/
 
 

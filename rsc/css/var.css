@@ -68,7 +68,7 @@
     --p-letter-spacing: initial;
     --p-word-spacing: initial;
     --p-color: #3E454C;
-    --p-align: justify;
+    --p-align: left;
 
     --h1-font: 'Montserrat', sans-serif;
     --h1-size: 4rem;

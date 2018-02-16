@@ -13,10 +13,6 @@
     <script src="rsc/js/jquery/jquery-3.2.1.js"></script>
     <!-- JQUERY IMPORT: END -->
 
-    <!-- HEAD IMPORT: START -->
-    <script src="rsc/js/head/head.js"></script>
-    <!-- HEAD IMPORT: END -->
-
     <title>Told you</title>
 </head>
 <body>
@@ -35,9 +31,8 @@
         <wz-hamburger></wz-hamburger>
         <nav wz-height="100vh">
             <ul>
-                <li><a wz-nav-link href="#section-spotify-fb">Hør oss på Spotify</a></li>
                 <li><a wz-nav-link href="#section-01">Om oss</a></li>
-                <li><a wz-nav-link href="#section-review">Anbefalinger</a></li>
+                <li><a wz-nav-link href="#section-spotify-fb">Hør oss på Spotify</a></li>
                 <li><a wz-nav-link href="#section-kontakt-booking">Kontakt og booking</a></li>
             </ul>
         </nav>
@@ -131,7 +126,7 @@
 
             <wz-space wz-height="40"></wz-space>
 
-            <iframe src="https://open.spotify.com/embed?uri=spotify:artist:2vcU7K3aghgRzEX1vrj6Vi" width="340" height="420" frameborder="0" allowtransparency="true"></iframe>
+            <iframe src="https://open.spotify.com/embed?uri=spotify:artist:2vcU7K3aghgRzEX1vrj6Vi" width="340" height="420" frameborder="0" allowtransparency="true" style="overflow: hidden; max-width: 340px;"></iframe>
         </div>
 
         <div wz-content="main--align-hz-center" wz-col="2--2" wz-txt="color-white + align-center">
@@ -143,18 +138,32 @@
         </div>
     </section>
 
-
-    <section id="section-review" wz-bg-color="dark-grey" wz-overlay="darker">
-
-        <img src="rsc/img/crowd.jpg" alt="Crowd">
-        
-        <div wz-content="main--align-hz-center" wz-txt="color-white + align-center">
-            <wz-space wz-height="80"></wz-space>
-            <wz-space></wz-space>
-            <blockquote>Etter at vi begynte å booke Told You med jevne mellomrom,<br> har vi doblet vår omsetning.</blockquote>
-            <p>Ola Nordmann, Utheim Bar &amp; Pub</p>
-            <wz-space wz-height="80"></wz-space>
+    <section id="section-band-members" wz-bg-color="dark-grey" wz-collapse="padding-bottom">
+        <div wz-content="main" wz-txt="color-white + align-center">
+            <h3>Medlemmer</h3>
         </div>
+    </section>
+
+    <section wz-bg-color="dark-grey" wz-collapse="">
+
+        <div wz-content="main" wz-col="3"  wz-txt="color-white + align-center">
+            <img src="rsc/img/karlsen.jpg" alt="Tommy Karlsen, Trommis">
+            <h4>Thommy Karlsen</h4>
+            <p>Trommis</p>
+        </div>
+
+        <div wz-content="main" wz-col="3"  wz-txt="color-white + align-center">
+            <img src="rsc/img/stokkan.jpg" alt="Hugo Stokkan, Vokalist">
+            <h4>Hugo Stokkan</h4>
+            <p>Vokalist</p>
+        </div>
+
+        <div wz-content="main" wz-col="3"  wz-txt="color-white + align-center">
+            <img src="rsc/img/johansen.jpg" alt="Ketil Hugo J. Johansen, Bassist">
+            <h4>Ketil Hugo W. Johansen</h4>
+            <p>Bassist</p>
+        </div>
+
     </section>
 
 
@@ -191,9 +200,17 @@
 
 
 
+<!-- FOOTER IMPORT: START-->
 <wz-footer wz-bg-color="theme-color-01"></wz-footer>
+<!-- FOOTER IMPORT: END -->
 
+<!-- ASCEND BUTTON: -->
 <wz-ascend></wz-ascend>
+
+
+<!-- HEAD IMPORT: START -->
+<script src="rsc/js/head/head.js"></script>
+<!-- HEAD IMPORT: END -->
 
 
 
