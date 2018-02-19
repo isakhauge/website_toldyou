@@ -810,6 +810,13 @@ code.hljs, code *{
 [wz-content] img[wz-music-logo="tidal"]:hover{filter: var(--tidal-logo-shadow);}
 [wz-content] img[wz-music-logo="applemusic"]:hover{filter: var(--applemusic-logo-shadow);}
 
+
+/* Embedded iFrame constraints: */
+iframe.embed, iframe.embed * {
+    overflow: hidden;
+    max-width: 335px;
+}
+
 /*=== APP SPECIFIC - TOLD YOU: END ===*/
 
 
