@@ -410,7 +410,7 @@ h1,h2,h3,h4,h5,h6,blockquote,p,a,table,th,td,tr,i,ul,ol,li,button {
 /*=== FOOTER TEXT: START ===*/
 
 wz-footer [wz-content="footer"]:last-child p {
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size:1.2rem;
     /*font-weight: 300;*/
     /*letter-spacing: 0.1em;*/
